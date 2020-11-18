@@ -7,7 +7,7 @@ Goroutines are used two times here! I'll go into those in a bit...
 ## Trying this out
 
 ### Requirements
-- Golang 1.15.x
+- [Golang 1.15.x](https://golang.org/dl/)
 
 ### Build, run, profit!
 - `go build`
