@@ -77,3 +77,7 @@ Server code
 - Free types!
 - Free pedantic language server so no one commits even wrong whitespace!
 - Honestly, the hard part is the infra setup. Once this is set up, look at whatever code you need to write in `./internal/clients/clienta/client`. It becomes trivial and you can be productive in implementing the SOMASity.
+
+## Some more positives
+- Testing framework is super-super automated, and the framework is already inside! (`import testing`)
+- You _can_ cross compile *STATIC* binaries easily
