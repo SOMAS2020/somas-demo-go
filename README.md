@@ -13,6 +13,7 @@ Goroutines are used two times here! I'll go into those in a bit...
 - `go build`
 - `./somas-demo-go`
 
+
 ## Interpreting the output!
 
 Here's an example:
@@ -56,7 +57,20 @@ Here's an example:
 
 Again, if you don't understand, don't worry. Go (ha ha ha) have a look at [A Tour Of Go](https://tour.golang.org/)!
 
-### Thoughts
+## Structure
+### `main.go`
+The main meat
+
+### `internal/clients`
+Client code
+
+### `internal/common`
+Shared code
+
+### `internal/server`
+Server code
+
+## Thoughts
 - `go` is a sweet language. Just look at the tooling required. Just the `go` binary in your system!
 - Concurrency is *FREE*
 - There definitely is overhead for learning, but [A Tour Of Go](https://tour.golang.org/) is a good brief introduction most people can finish with ~3 days provided a sufficient base in C++/Python.
