@@ -62,3 +62,4 @@ Again, if you don't understand, don't worry. Go (ha ha ha) have a look at [A Tou
 - There definitely is overhead for learning, but [A Tour Of Go](https://tour.golang.org/) is a good brief introduction most people can finish with ~3 days provided a sufficient base in C++/Python.
 - Free types!
 - Free pedantic language server so no one commits even wrong whitespace!
+- Honestly, the hard part is the infra setup. Once this is set up, look at whatever code you need to write in `./internal/clients/clienta/client`. It becomes trivial and you can be productive in implementing the SOMASity.
